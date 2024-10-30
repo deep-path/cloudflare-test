@@ -29,6 +29,7 @@ const HomePage = () => {
         console.error('Error fetching price:', error);
       });
   }, []);
+  console.log('test')
   return (
     <div className="min-h-screen bg-dark-30">
       <header>
